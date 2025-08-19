@@ -1,0 +1,15 @@
+.home {
+  background: var(--cinza-escuro);
+  color: white;
+}
+
+.logo {
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  display: flex;
+  gap: 1rem;
+}
+

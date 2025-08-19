@@ -1,0 +1,12 @@
+.infos {
+  background: white;
+  color: var(--preto);
+  font-family: var(--fonte2);
+}
+
+.texto {
+  max-width: 800px;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+  font-size: 1.1rem;
+}

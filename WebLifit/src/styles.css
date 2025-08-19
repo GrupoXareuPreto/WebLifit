@@ -1,0 +1,39 @@
+:root {
+  --verde: #90e05e;
+  --cinza-escuro: #2b3c45;
+  --preto: #272727;
+  --cinza: #878787;
+  --fonte1: "Inter", sans-serif;
+  --fonte2: "Nunito", sans-serif;
+  --fonte3: "Jeju Gothic", sans-serif;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-family: var(--fonte1);
+}
+
+.section {
+  height: 100vh;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.btn {
+  padding: 0.8rem 1.5rem;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
