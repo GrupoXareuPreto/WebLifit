@@ -1,15 +1,49 @@
 .home {
-  background: var(--cinza-escuro);
-  color: white;
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #272727;
+  text-align: center;
+  overflow: hidden;
+}
+
+.carousel {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.carousel img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.6);
 }
 
 .logo {
-  width: 200px;
+  width: 180px;
   margin-bottom: 20px;
 }
 
-.buttons {
-  display: flex;
-  gap: 1rem;
+button.instalar {
+  background: #90e05e;
+  color: white;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 30px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+button.instalar:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px rgba(144, 224, 94, 0.7);
+}
